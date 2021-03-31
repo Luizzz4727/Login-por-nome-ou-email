@@ -1,0 +1,101 @@
+/*
+	Name: style.css
+	Author: luiz.ribeiro
+	Date: 30/03/21 22:27
+	Description: Script de estilização da página inicial.
+*/
+
+#container {
+	width: 99vw;
+    height: 97vh;
+	background: #97a2ad;
+	display: flex;
+	flex-direction: column
+}
+
+.box {
+	margin-top: 8em;
+	display: flex;
+	flex-direction: column;
+	align-items: center
+}
+
+h2 {
+	font-size: 2.3em;
+    font-family: cursive;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center
+}
+
+input {
+	margin-top: 1em;
+}
+
+.Digitar {
+ 	text-align: -webkit-center;
+ 	background: none;
+ 	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+    border-bottom-color: snow;
+    width: 15em;
+}
+
+.Enviar {
+	font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+    background: lightgray;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    border: solid 2.2px gray;
+}
+
+::placeholder { 
+	font-family: cursive;
+  	color: black;
+  	font-size: 1.3em;
+  	opacity: 4; 
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.nomeUsuario {
+
+	margin: 0px;
+}
+
+.emailUsuario {
+
+	margin-bottom: 44px;
+}
+
+p {
+	font-size: 1.5em;
+    font-family: cursive;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px #3f3fa2;
+}
+
+a {
+	text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: cursive;
+    background: lightgray;
+    padding: 5px;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+    border: solid 2.2px gray;
+}
